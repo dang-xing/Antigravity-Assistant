@@ -86,21 +86,14 @@ function Navbar() {
     return (
         <nav
             style={{ position: 'sticky', top: 0, zIndex: 50 }}
-            className="pt-9 transition-all duration-200 bg-[#FAFBFC] dark:bg-base-300"
+            className="transition-all duration-200 bg-[#FAFBFC] dark:bg-base-300"
         >
-            {/* 窗口拖拽区域 2 - 覆盖导航栏内容区域（在交互元素下方） */}
-            <div
-                className="absolute top-9 left-0 right-0 h-16"
-                style={{ zIndex: 5, backgroundColor: 'rgba(0,0,0,0.001)' }}
-                data-tauri-drag-region
-            />
-
             <div className="max-w-7xl mx-auto px-8 relative" style={{ zIndex: 10 }}>
                 <div className="flex items-center justify-between h-16">
                     {/* Logo - 左侧 */}
                     <div className="flex items-center">
                         <Link to="/" className="text-xl font-semibold text-gray-900 dark:text-base-content flex items-center gap-2">
-                            Antigravity Tools
+                            Antigravity Assistant
                         </Link>
                     </div>
 

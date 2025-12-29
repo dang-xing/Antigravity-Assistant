@@ -242,7 +242,7 @@ pub async fn start_oauth_login(app_handle: tauri::AppHandle) -> Result<Account, 
          1. 您之前已授权过此应用,Google 不会再次返回 refresh_token\n\n\
          解决方案:\n\
          1. 访问 https://myaccount.google.com/permissions\n\
-         2. 撤销 'Antigravity Tools' 的访问权限\n\
+         2. 撤销 'Antigravity Assistant' 的访问权限\n\
          3. 重新进行 OAuth 授权\n\n\
          或者使用 'Refresh Token' 标签页手动添加账号".to_string()
     })?;
@@ -297,7 +297,7 @@ pub async fn complete_oauth_login(app_handle: tauri::AppHandle) -> Result<Accoun
          1. 您之前已授权过此应用,Google 不会再次返回 refresh_token\n\n\
          解决方案:\n\
          1. 访问 https://myaccount.google.com/permissions\n\
-         2. 撤销 'Antigravity Tools' 的访问权限\n\
+         2. 撤销 'Antigravity Assistant' 的访问权限\n\
          3. 重新进行 OAuth 授权\n\n\
          或者使用 'Refresh Token' 标签页手动添加账号".to_string()
     })?;
